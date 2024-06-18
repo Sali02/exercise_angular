@@ -1,0 +1,9 @@
+
+
+<h2>{{ title }}</h2>
+<h5>{{ authors.length }}</h5>
+<ul class="list-group">
+  <li *ngFor = "let author of authors" class="list-group-item">
+    {{ author }}
+  </li>
+</ul>
